@@ -1,9 +1,9 @@
-﻿// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // Package Editor Tests.
 // Test Framework
 // https://docs.unity3d.com/Manual/com.unity.test-framework.html
 //
-// For embedded packages you don’t need to explicitly enable tests because embedded packages are in development.
+// For embedded packages you don�t need to explicitly enable tests because embedded packages are in development.
 // However, for other types of dependencies, you need to add the `testables` attribute to the Project `manifest.json`
 // -----------------------------------------------------------------------------
 
@@ -12,7 +12,7 @@ using NUnit.Framework;
 using System.Collections;
 using UnityEngine;
 
-namespace RealityToolkit.UPMTEMPLATE.Editor.Tests
+namespace Service_Framework.Services.Editor.Tests
 {
     class EditorExampleTest
     {

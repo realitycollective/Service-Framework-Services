@@ -1,12 +1,9 @@
 {
-  "name": "com.realitytoolkit.UPMTEMPLATE",
-  "displayName": "RealityToolkit.UPMTEMPLATE",
-  "description": "The UPMTEMPLATE framework of the Reality Toolkit by the Reality Collective",
+  "name": "service_framework_services",
+  "displayName": "Reality Collective Service Framework Services",
+  "description": "A collection of Reality Collective and community shared services for the Service Framework",
   "keywords": [
-    "VR",
-    "AR",
-    "XR",
-    "Mixed Reality"
+    "Tools"
   ],
   "version": "1.0.0-preview.0",
   "unity": "2020.3",
@@ -17,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/realitycollective/com.realitytoolkit.UPMTEMPLATE"
+    "url": "git+https://github.com/realitycollective/Service-Framework-Services"
   },
   "author": {
     "name": "Reality Collective",
@@ -25,12 +22,6 @@
     "url": "https://github.com/realitycollective"
   },
   "dependencies": {
-    "com.realitytoolkit.core": "1.0.0-preview.1"
-  },
-  "assets": [
-    {
-      "displayName": "Default Assets",
-      "path": "Assets~/"
-    }
-  ]
+    "com.realitycollective.service-framework": "1.0.0-preview.2"
+  }
 }
