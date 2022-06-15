@@ -1,49 +1,27 @@
-# Reality Toolkit - UPMTEMPLATE Platform Module
+# Reality Toolkit - Service Framework Service Registry
 
-The UPMTEMPLATE platform components for the [Reality Toolkit](https://github.com/realitycollective/com.realitytoolkit.core). This package enables your Reality Toolkit based project to run on UPMTEMPLATE devices.
+To support and aid developers utilising the [Service Framework](https://github.com/realitycollective/com.realitycollective.service-framework) built by the Reality Collective, this repository is here for both Reality Collective members and the larger community to publish Services for other developers to use.
 
 ## What's included?
-<!-- Fill in list of what is included here -->
 
-tbc
-
-## Supported Devices
-<!-- Fill in list of what devices or services are supported here -->
-
-- tbc
+The Reality COllective team will shortly publish some example services along side some instructional posts in how to build services.  We will likely add more over time.
 
 ## Requirements
-<!-- Fill in list of requirements here -->
 
-- [RealityToolkit.Core](https://github.com/realitycollective/com.realitytoolkit.core)
+- [RealityToolkit.Service-Framework](https://github.com/realitycollective/com.realitycollective.service-framework)
 - [Unity 2020.3 and above](https://unity.com/)
-- tbc
 
-## Getting Started
-<!-- Update getting started docs here here -->
+## Contributing Services
 
-tbc
+Any developer is able to submit a service to the registry and free to do so and help out other developers with their projects.
 
-For more details, check the ["Getting Started" documentation](http://realitycollective.github.io/) for the Reality Toolkit (coming soon)
+A few considerations to keep in mind:
 
-### OpenUPM
-<!-- Check openUPM links and details -->
+* Try to keep services unique, or offer additions / enhancements to existing services that have already been contributed
+* Make sure to fully comment your code and implementation. If possible blog about your service and show its use. (not mandatory)
+* Include a ReadMe or other short document to highlight how best to use your service and what benefits it provides.
+* Services should be self-contained and not require external dependencies in this repository
 
-[![openupm](https://img.shields.io/npm/v/com.realitytoolkit.UPMTEMPLATE?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.realitytoolkit.UPMTEMPLATE/)
+> If your service has specific dependencies such as embedded dll's or other UPM packages, consider using the Reality Collective Project template and create a separate package for it.
 
-The simplest way to getting started using the UPMTEMPLATE platform package in your project is via OpenUPM. Visit [OpenUPM](https://openupm.com/docs/) to learn more about it. Once you have the OpenUPM CLI set up use the following command to add the package to your project:
-
-```
-`openupm add com.realitytoolkit.UPMTEMPLATE`
-```
-
-> For more details on using [OpenUPM CLI, check the docs here](https://github.com/openupm/openupm-cli#installation).
-
-# Build Status
-<!-- Check build status links and details -->
-
-| branch | build status |
-| --- | --- |
-| main | [![main](https://github.com/realitycollective/com.realitytoolkit.UPMTEMPLATE/actions/workflows/buildupmpackages.yml/badge.svg?branch=main)](https://github.com/realitycollective/com.realitytoolkit.UPMTEMPLATE/actions/workflows/buildupmpackages.yml) |
-| development | [![development](https://github.com/realitycollective/com.realitytoolkit.UPMTEMPLATE/actions/workflows/buildupmpackages.yml/badge.svg?branch=development)](https://github.com/realitycollective/com.realitytoolkit.UPMTEMPLATE/actions/workflows/buildupmpackages.yml) |
-
+If required, we will look to publish this repository as a UPM package to OpenUPM for easier use.
