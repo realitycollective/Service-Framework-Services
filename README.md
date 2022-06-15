@@ -4,7 +4,7 @@ To support and aid developers utilising the [Service Framework](https://github.c
 
 ## What's included?
 
-The Reality COllective team will shortly publish some example services along side some instructional posts in how to build services.  We will likely add more over time.
+The Reality Collective team will shortly publish some example services along side some instructional posts in how to build services.  We will likely add more over time.
 
 ## Requirements
 
